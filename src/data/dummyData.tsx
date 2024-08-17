@@ -1,5 +1,6 @@
 const FoodData = [
   {
+    id: 1,
     name: "Classic Burger",
     image: "/images/pexels-myfoodie-2702674 (1).jpg",
     price: "8.99",
@@ -9,6 +10,7 @@ const FoodData = [
     availability: true,
   },
   {
+    id: 2,
     name: "Cheese Pizza",
     image: "/images/pexels-myfoodie-2702674 (1).jpg",
     price: "12.99",
@@ -18,6 +20,7 @@ const FoodData = [
     availability: true,
   },
   {
+    id: 3,
     name: "Caesar Salad",
     image: "/images/pexels-myfoodie-2702674 (1).jpg",
     price: "7.99",
@@ -27,6 +30,7 @@ const FoodData = [
     availability: true,
   },
   {
+    id: 4,
     name: "Grilled Chicken Sandwich",
     image: "/images/pexels-myfoodie-2702674 (1).jpg",
     price: "9.99",
@@ -36,6 +40,7 @@ const FoodData = [
     availability: true,
   },
   {
+    id: 5,
     name: "French Fries",
     image: "/images/pexels-myfoodie-2702674 (1).jpg",
     price: "3.99",
@@ -45,6 +50,7 @@ const FoodData = [
     availability: true,
   },
   {
+    id: 6,
     name: "Veggie Wrap",
     image: "/images/pexels-myfoodie-2702674 (1).jpg",
     price: "8.49",
@@ -54,6 +60,7 @@ const FoodData = [
     availability: true,
   },
   {
+    id: 7,
     name: "Chocolate Milkshake",
     image: "/images/pexels-myfoodie-2702674 (1).jpg",
     price: "4.99",
@@ -63,6 +70,7 @@ const FoodData = [
     availability: true,
   },
   {
+    id: 8,
     name: "Chicken Wings",
     image: "/images/pexels-myfoodie-2702674 (1).jpg",
     price: "10.99",
@@ -72,6 +80,7 @@ const FoodData = [
     availability: true,
   },
   {
+    id: 9,
     name: "Spaghetti Bolognese",
     image: "/images/pexels-myfoodie-2702674 (1).jpg",
     price: "13.99",
@@ -81,6 +90,7 @@ const FoodData = [
     availability: true,
   },
   {
+    id: 10,
     name: "Margarita Pizza",
     image: "/images/pexels-myfoodie-2702674 (1).jpg",
     price: "11.99",
@@ -90,6 +100,7 @@ const FoodData = [
     availability: true,
   },
   {
+    id: 11,
     name: "Fish Tacos",
     image: "/images/pexels-myfoodie-2702674 (1).jpg",
     price: "9.99",
@@ -99,6 +110,7 @@ const FoodData = [
     availability: true,
   },
   {
+    id: 12,
     name: "BBQ Ribs",
     image: "/images/pexels-myfoodie-2702674 (1).jpg",
     price: "15.99",
@@ -108,6 +120,7 @@ const FoodData = [
     availability: true,
   },
   {
+    id: 13,
     name: "Greek Salad",
     image: "/images/pexels-myfoodie-2702674 (1).jpg",
     price: "8.99",
@@ -117,6 +130,7 @@ const FoodData = [
     availability: true,
   },
   {
+    id: 14,
     name: "Beef Burrito",
     image: "/images/pexels-myfoodie-2702674 (1).jpg",
     price: "10.99",
@@ -126,6 +140,7 @@ const FoodData = [
     availability: true,
   },
   {
+    id: 15,
     name: "Lemonade",
     image: "/images/pexels-myfoodie-2702674 (1).jpg",
     price: "2.99",
@@ -135,6 +150,7 @@ const FoodData = [
     availability: true,
   },
   {
+    id: 16,
     name: "Chocolate Cake",
     image: "/images/pexels-myfoodie-2702674 (1).jpg",
     price: "6.99",
@@ -144,6 +160,7 @@ const FoodData = [
     availability: true,
   },
   {
+    id: 17,
     name: "Veggie Burger",
     image: "/images/pexels-myfoodie-2702674 (1).jpg",
     price: "9.49",
@@ -153,6 +170,7 @@ const FoodData = [
     availability: true,
   },
   {
+    id: 18,
     name: "Pepperoni Pizza",
     image: "/images/pexels-myfoodie-2702674 (1).jpg",
     price: "13.99",
@@ -162,6 +180,7 @@ const FoodData = [
     availability: true,
   },
   {
+    id: 19,
     name: "Chicken Caesar Wrap",
     image: "/images/pexels-myfoodie-2702674 (1).jpg",
     price: "8.99",
@@ -171,6 +190,7 @@ const FoodData = [
     availability: true,
   },
   {
+    id: 20,
     name: "Onion Rings",
     image: "/images/pexels-myfoodie-2702674 (1).jpg",
     price: "4.99",
@@ -180,6 +200,7 @@ const FoodData = [
     availability: true,
   },
   {
+    id: 21,
     name: "Strawberry Smoothie",
     image: "/images/pexels-myfoodie-2702674 (1).jpg",
     price: "4.99",
@@ -189,6 +210,7 @@ const FoodData = [
     availability: true,
   },
   {
+    id: 22,
     name: "Mozzarella Sticks",
     image: "/images/pexels-myfoodie-2702674 (1).jpg",
     price: "6.99",
@@ -198,6 +220,7 @@ const FoodData = [
     availability: true,
   },
   {
+    id: 23,
     name: "Fettuccine Alfredo",
     image: "/images/pexels-myfoodie-2702674 (1).jpg",
     price: "12.99",
@@ -207,6 +230,7 @@ const FoodData = [
     availability: true,
   },
   {
+    id: 24,
     name: "Veggie Pizza",
     image: "/images/pexels-myfoodie-2702674 (1).jpg",
     price: "11.99",
@@ -216,6 +240,7 @@ const FoodData = [
     availability: true,
   },
   {
+    id: 25,
     name: "Shrimp Tacos",
     image: "/images/pexels-myfoodie-2702674 (1).jpg",
     price: "11.99",
@@ -225,6 +250,7 @@ const FoodData = [
     availability: true,
   },
   {
+    id: 26,
     name: "Grilled Salmon",
     image: "/images/pexels-myfoodie-2702674 (1).jpg",
     price: "14.99",
@@ -234,6 +260,7 @@ const FoodData = [
     availability: true,
   },
   {
+    id: 27,
     name: "Caprese Salad",
     image: "/images/pexels-myfoodie-2702674 (1).jpg",
     price: "7.99",
@@ -243,6 +270,7 @@ const FoodData = [
     availability: true,
   },
   {
+    id: 28,
     name: "Chicken Quesadilla",
     image: "/images/pexels-myfoodie-2702674 (1).jpg",
     price: "9.99",
@@ -252,6 +280,7 @@ const FoodData = [
     availability: true,
   },
   {
+    id: 29,
     name: "Iced Coffee",
     image: "/images/pexels-myfoodie-2702674 (1).jpg",
     price: "3.99",
@@ -261,6 +290,7 @@ const FoodData = [
     availability: true,
   },
   {
+    id: 30,
     name: "Tiramisu",
     image: "/images/pexels-myfoodie-2702674 (1).jpg",
     price: "6.99",
@@ -270,6 +300,7 @@ const FoodData = [
     availability: true,
   },
   {
+    id: 31,
     name: "Bacon Burger",
     image: "/images/pexels-myfoodie-2702674 (1).jpg",
     price: "10.49",

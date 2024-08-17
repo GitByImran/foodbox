@@ -1,6 +1,4 @@
 import React from "react";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
 import { Plus, Search } from "lucide-react";
 import { FoodData } from "@/data/dummyData";
 import Link from "next/link";
@@ -55,12 +53,12 @@ const HomePage = () => {
 
       <section>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {FoodData.map((data: any, index: number) => (
+          {FoodData.slice(0, 8).map((data: any, index: number) => (
             <div
               key={index}
               className="rounded-3xl border shadow overflow-hidden"
             >
-              <Link href={"/"}>
+              <Link href={`/food-items/${data?.id}`}>
                 <img
                   src={data?.image}
                   alt=""
